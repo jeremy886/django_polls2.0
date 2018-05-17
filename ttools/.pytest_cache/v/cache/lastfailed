@@ -1,0 +1,14 @@
+{
+  "tests/polls_tests.py::HomePageTest::test_use_home_template": true,
+  "tests/polls_tests.py::MyTest1::test_post": true,
+  "tests/polls_tests.py::MyTestCase::testBlog": true,
+  "tests/polls_tests.py::TestApp": true,
+  "tests/polls_tests.py::WebTest": true,
+  "tests/polls_tests.py::test_1": true,
+  "tests/polls_tests.py::test_can_save_a_POST_request": true,
+  "tests/polls_tests.py::test_can_start_a_list_and_retrieve_it_later": true,
+  "tests/polls_tests.py::test_django_app": true,
+  "tests/polls_tests.py::test_enter_todo_list_item_to_db": true,
+  "tests/polls_tests.py::test_home_page": true,
+  "tests/polls_tests.py::test_home_page_returns_correct_html": true
+}

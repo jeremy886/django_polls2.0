@@ -10,3 +10,16 @@
 {% endfor %}
 <input type="submit" value="Vote" />
 </form>
+
+{% for comment in question.comment_set.all %}
+    {{ comment.created_date }}
+    by {{ comment.author }}
+    <p>
+    {{ comment.text | linebreaks }}
+    </p>
+{% empty %}
+    <p>No commenet yet.</p>
+{% endfor %}
+
+
+<a href="{% url 'polls:add_comment' question.id %}">Add comment</a>

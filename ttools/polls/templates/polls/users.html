@@ -1,0 +1,31 @@
+{% load static %}
+
+
+<h2>Staff</h2>
+
+{% if staff %}
+    <ul>
+    {% for user in staff %}
+        <li>{{ user.profile }} (Bio: {{ user.profile.bio }})</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+<h2>Non-Staff</h2>
+{% if non_staff %}
+    <ul>
+    {% for user in non_staff %}
+        <li>{{ user.profile }} (Bio: {{ user.profile.bio }})</li>
+    {% endfor %}
+    </ul>
+{% endif %}
+
+<h2>Everybody:</h2>
+{% if user_list %}
+    <ul>
+    {% for user in user_list %}
+        <li>{{ user.profile }} (Bio: {{ user.profile.bio }})</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No users are available.</p>
+{% endif %}

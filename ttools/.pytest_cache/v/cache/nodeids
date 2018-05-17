@@ -1,0 +1,9 @@
+[
+  "tests/polls_tests.py::test_home_page",
+  "tests/polls_tests.py::test_maths_work",
+  "tests/polls_tests.py::test_home_page_returns_correct_html",
+  "tests/polls_tests.py::test_can_start_a_list_and_retrieve_it_later",
+  "tests/polls_tests.py::HomePageTest::test_use_home_template",
+  "tests/polls_tests.py::test_enter_todo_list_item_to_db",
+  "tests/polls_tests.py::test_can_save_a_POST_request"
+]
